@@ -9,6 +9,66 @@
     <h1><bold>Travel Reservation Form</bold></h1>
     <h3><bold>* denotes mandatory</bold></h3>
 <body>
+    <label for="Full name*:">Full name*:</label>
+    <br>
+    <input type="text" id="Full name*:" name="Full name*:" placeholder="FirstName LastName" required>
+
+    <br><br>
+
+    <label for="Email address*:">Email address*:</label>
+    <br>
+    <input type="text" id="Email address*:" name="Email address*:" placeholder="EMAIL_ADDRESS" required>
+
+    <br><br>
+
+    <label for="package-select">Select Tour Package*:</label>
+    <br>
+    <select name="packages" id="package-select" required>
+        <option value="Silver">Silver</option>
+        <option value="Gold">Gold</option>
+        <option value="Platinum">Platinum</option>
+    </select>
+
+    <br><br>
+
+    <label for="Arrival Date*:">Arrival Date*:</label>
+    <br>
+    <input type="date" id="Arrival Date*:" name="Arrival Date*:" required>
+
+    <br><br>
+
+    <label for="Number of Persons*:">Number of Persons*:</label>
+    <br>
+    <input type="text" id="Number of Persons*:" name="Number of Persons*:" placeholder="UNKNOWN_TYPE" required>
+
+    <br><br>
+
+    <label for="avail">What would you want to avail?*</label>
+    <br>
+        <input type="checkbox" id="avail1" name="avail1" value="Boarding" required>
+        <label for="avail1">Boarding</label><br>
+        <input type="checkbox" id="avail2" name="avail2" value="Fooding" required>
+        <label for="avail2">Fooding</label><br>
+        <input type="checkbox" id="avail3" name="avail3" value="Sightseeing" required>
+        <label for="avail3">Sightseeing</label><br>
+
+    <br>
+
+    <label for="Coupon">Discount Coupon Code:</label>
+    <br>
+    <input type="text" id="Coupon" name="Coupon" placeholder="UNKNOWN_TYPE">
+
+    <br><br>
+
+    <label for="tac">Terms and Conditions*:</label>
+    <br>
+    <input type="checkbox" id="tac1" name="tac1" value="Yes" required>
+    <label for="tac1">I agree</label> 
+    <input type="checkbox" id="tac2" name="tac2" value="No" required>
+    <label for="tac2">I disagree</label><br> 
     
+    <br>
+
+    <input type="submit" value="Complete Reservation">
 </body>
 </html>
